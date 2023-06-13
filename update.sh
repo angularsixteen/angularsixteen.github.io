@@ -11,7 +11,7 @@ echo '# Angular Fifteen'  >> README.md 2>&1;
 echo ''  >> README.md 2>&1;
 
 echo ''  >> README.md 2>&1;
-echo 'This project is live at [https://angularfifteen.github.io](https://angularfifteen.github.io "fifteen!") thanks to Github.'  >> README.md 2>&1;
+echo 'This project is live at [https://angularsixteen.github.io](https://angularsixteen.github.io "fifteen!") thanks to Github.'  >> README.md 2>&1;
 echo ''  >> README.md 2>&1;
 
 echo "\`\`\`bash"  >> README.md 2>&1;
