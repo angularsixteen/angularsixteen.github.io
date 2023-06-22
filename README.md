@@ -280,3 +280,8 @@ styles.css          | styles        |   0 bytes |                       -
 Build at: 2023-06-22T13:11:00.288Z - Hash: 914237b253517c0d - Time: 14141ms
 Done in 15.82s.
 ```
+Thu Jun 22 09:11:01 AM EDT 2023
+yarn version v1.22.19
+info Current version: 0.0.7
+info New version: 0.0.8
+Done in 0.12s.
