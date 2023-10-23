@@ -80,3 +80,20 @@ PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 --- 8.8.8.8 ping statistics ---
 20 packets transmitted, 20 received, 0% packet loss, time 555ms
 rtt min/avg/max/mdev = 24.957/27.847/34.882/2.495 ms, pipe 2, ipg/ewma 29.233/27.410 ms
+ping: sock4.fd: 3 (socktype: SOCK_DGRAM), sock6.fd: 4 (socktype: SOCK_DGRAM), hints.ai_family: AF_UNSPEC
+
+ai->ai_family: AF_INET, ai->ai_canonname: '8.8.8.8'
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+[1698071812.503961] 64 bytes from 8.8.8.8: icmp_seq=1 ttl=112 time=32.1 ms
+[1698071812.534043] 64 bytes from 8.8.8.8: icmp_seq=2 ttl=112 time=30.0 ms
+[1698071812.569807] 64 bytes from 8.8.8.8: icmp_seq=3 ttl=112 time=33.7 ms
+[1698071812.594292] 64 bytes from 8.8.8.8: icmp_seq=4 ttl=112 time=25.8 ms
+[1698071812.630452] 64 bytes from 8.8.8.8: icmp_seq=5 ttl=112 time=30.9 ms
+[1698071812.658969] 64 bytes from 8.8.8.8: icmp_seq=6 ttl=112 time=28.3 ms
+[1698071812.688528] 64 bytes from 8.8.8.8: icmp_seq=7 ttl=112 time=26.9 ms
+[1698071812.725720] 64 bytes from 8.8.8.8: icmp_seq=8 ttl=112 time=34.1 ms
+[1698071812.750556] 64 bytes from 8.8.8.8: icmp_seq=9 ttl=112 time=28.3 ms
+
+--- 8.8.8.8 ping statistics ---
+20 packets transmitted, 9 received, 55% packet loss, time 596ms
+rtt min/avg/max/mdev = 25.764/30.004/34.079/2.766 ms, pipe 2, ipg/ewma 31.377/30.510 ms
