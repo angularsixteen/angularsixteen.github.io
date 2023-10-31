@@ -263,3 +263,445 @@ sys	3m46.486s
 [kushal@kalimati ~]$
 [kushal@kalimati ~]$
 [kushal@kalimati ~]$
+
+
+
+
+
+[kushal@kalimati ~]$
+[kushal@kalimati ~]$
+[kushal@kalimati ~]$ time sudo echo "hello"; date; time flatpak update -y; date; time sudo fwupdmgr get-updates; date; time sudo dnf offline-upgrade download -y && time sudo dnf offline-upgrade reboot
+[sudo] password for kushal:
+Sorry, try again.
+[sudo] password for kushal:
+hello
+
+real	0m17.364s
+user	0m0.062s
+sys	0m0.047s
+Tue Oct 31 01:15:11 PM EDT 2023
+Looking for updates…
+
+Info: runtime org.kde.Platform branch 6.4 is end-of-life, with reason:
+   We strongly recommend moving to the latest stable version of the Plaform and SDK
+Info: applications using this runtime:
+   com.obsproject.Studio
+
+Info: runtime org.gnome.Platform branch 43 is end-of-life, with reason:
+   The GNOME 43 runtime is no longer supported as of September 20, 2023. Please ask your application developer to migrate to a supported platform.
+Info: applications using this runtime:
+   org.remmina.Remmina
+
+Nothing to do.
+
+real	0m0.625s
+user	0m0.240s
+sys	0m0.048s
+Tue Oct 31 01:15:11 PM EDT 2023
+Devices with no available firmware updates:
+ • UEFI Device Firmware
+ • UEFI Device Firmware
+Devices with the latest available firmware version:
+ • Embedded Controller
+ • Intel Management Engine
+ • MZVLB256HBHQ-000L7
+ • Prometheus
+ • Prometheus IOTA Config
+ • System Firmware
+ • Thunderbolt host controller
+ • UEFI dbx
+Successfully uploaded 1 report
+No updates available
+
+real	0m1.636s
+user	0m0.111s
+sys	0m0.045s
+Tue Oct 31 01:15:13 PM EDT 2023
+Copr repo for PyCharm owned by phracek                                                                                                                                                                        3.9 kB/s | 2.1 kB     00:00
+Fedora 38 - x86_64                                                                                                                                                                                             47 kB/s |  25 kB     00:00
+Fedora 38 openh264 (From Cisco) - x86_64                                                                                                                                                                      1.8 kB/s | 989  B     00:00
+Fedora Modular 38 - x86_64                                                                                                                                                                                     41 kB/s |  25 kB     00:00
+Fedora 38 - x86_64 - Updates                                                                                                                                                                                   39 kB/s |  24 kB     00:00
+Fedora Modular 38 - x86_64 - Updates                                                                                                                                                                           98 kB/s |  24 kB     00:00
+google-chrome                                                                                                                                                                                                 3.2 kB/s | 1.3 kB     00:00
+RPM Fusion for Fedora 38 - Nonfree - NVIDIA Driver                                                                                                                                                             11 kB/s | 6.5 kB     00:00
+RPM Fusion for Fedora 38 - Nonfree - Steam                                                                                                                                                                     14 kB/s | 6.2 kB     00:00
+Tailscale stable                                                                                                                                                                                              889  B/s | 832  B     00:00
+Dependencies resolved.
+Nothing to do.
+Complete!
+The system-upgrade transaction is empty, your system is already up-to-date.
+
+real	0m7.685s
+user	0m2.297s
+sys	0m0.323s
+Error: system is not ready for upgrade
+
+real	0m0.186s
+user	0m0.159s
+sys	0m0.017s
+[kushal@kalimati ~]$
+[kushal@kalimati ~]$
+[kushal@kalimati ~]$ time sh /home/kushal/src/bash/omnibus/omnibus.sh
+Tue Oct 31 01:16:04 PM EDT 2023
+
+real	0m1.001s
+user	0m0.042s
+sys	0m0.043s
+
+real	0m0.844s
+user	0m0.030s
+sys	0m0.014s
+
+real	0m0.991s
+user	0m0.044s
+sys	0m0.051s
+
+real	0m0.780s
+user	0m0.040s
+sys	0m0.018s
+
+real	0m1.610s
+user	0m0.224s
+sys	0m0.146s
+
+real	0m3.138s
+user	0m0.226s
+sys	0m0.075s
+
+real	1m32.640s
+user	1m45.455s
+sys	0m29.041s
+
+
+
+
+real	4m14.610s
+user	7m18.841s
+sys	1m9.533s
+
+real	0m1.488s
+user	0m0.103s
+sys	0m0.029s
+
+real	0m42.587s
+user	0m56.585s
+sys	0m19.985s
+
+real	0m0.767s
+user	0m0.028s
+sys	0m0.013s
+
+
+
+real	0m59.382s
+user	0m50.390s
+sys	0m17.597s
+
+real	1m28.417s
+user	1m19.670s
+sys	0m23.580s
+
+real	0m7.614s
+user	0m2.979s
+sys	0m0.273s
+
+real	0m8.814s
+user	0m0.025s
+sys	0m0.014s
+
+real	0m1.173s
+user	0m0.037s
+sys	0m0.020s
+
+real	0m8.810s
+user	0m2.568s
+sys	0m0.312s
+
+real	0m4.500s
+user	0m0.002s
+sys	0m0.002s
+
+real	0m0.018s
+user	0m0.002s
+sys	0m0.003s
+
+real	0m7.318s
+user	0m2.974s
+sys	0m0.231s
+
+real	0m7.586s
+user	0m0.025s
+sys	0m0.013s
+
+real	0m1.167s
+user	0m0.036s
+sys	0m0.023s
+
+real	0m7.234s
+user	0m2.486s
+sys	0m0.248s
+
+real	0m9.522s
+user	0m0.027s
+sys	0m0.016s
+
+real	0m1.176s
+user	0m0.043s
+sys	0m0.019s
+
+real	1m19.934s
+user	1m33.635s
+sys	0m23.566s
+
+real	0m1.033s
+user	0m0.083s
+sys	0m0.096s
+
+real	0m1.107s
+user	0m0.041s
+sys	0m0.023s
+
+real	0m35.803s
+user	0m11.952s
+sys	0m3.933s
+
+real	1m12.746s
+user	1m6.958s
+sys	0m21.838s
+
+real	0m0.507s
+user	0m0.811s
+sys	0m0.123s
+
+real	0m1.687s
+user	0m1.548s
+sys	0m0.285s
+
+real	0m53.522s
+user	0m38.883s
+sys	0m14.106s
+On branch develop
+nothing to commit, working tree clean
+
+real	0m0.003s
+user	0m0.001s
+sys	0m0.002s
+On branch develop
+nothing to commit, working tree clean
+
+real	0m0.004s
+user	0m0.001s
+sys	0m0.003s
+Pushing to github.com:angularsixteen/angularsixteen.github.io.git
+Enumerating objects: 60, done.
+Counting objects: 100% (60/60), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (47/47), done.
+Writing objects: 100% (49/49), 26.96 KiB | 1022.00 KiB/s, done.
+Total 49 (delta 34), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (34/34), completed with 9 local objects.
+To github.com:angularsixteen/angularsixteen.github.io.git
+   87769cc..96758e2  develop -> develop
+updating local tracking ref 'refs/remotes/origin/develop'
+
+real	0m1.397s
+user	0m0.118s
+sys	0m0.045s
+
+real	0m12.459s
+user	0m8.453s
+sys	0m0.513s
+Tue Oct 31 01:31:03 PM EDT 2023
+Last metadata expiration check: 0:00:01 ago on Tue 31 Oct 2023 01:31:02 PM EDT.
+
+real	0m1.321s
+user	0m1.132s
+sys	0m0.176s
+Tue Oct 31 01:31:04 PM EDT 2023
+
+real	0m0.997s
+user	0m0.071s
+sys	0m0.006s
+
+real	15m0.738s
+user	16m7.197s
+sys	3m46.486s
+[kushal@kalimati ~]$
+[kushal@kalimati ~]$
+[kushal@kalimati ~]$
+[kushal@kalimati ~]$
+[kushal@kalimati ~]$
+[kushal@kalimati ~]$
+[kushal@kalimati ~]$
+[kushal@kalimati ~]$
+[kushal@kalimati ~]$ time sh /home/kushal/src/bash/omnibus/omnibus.sh
+Tue Oct 31 01:32:36 PM EDT 2023
+
+real	0m0.954s
+user	0m0.043s
+sys	0m0.030s
+
+real	0m0.908s
+user	0m0.031s
+sys	0m0.023s
+
+real	2m15.230s
+user	0m0.001s
+sys	0m0.005s
+
+real	0m1.304s
+user	0m0.028s
+sys	0m0.016s
+
+real	0m1.842s
+user	0m0.095s
+sys	0m0.057s
+
+real	0m1.548s
+user	0m0.073s
+sys	0m0.048s
+
+real	1m12.102s
+user	0m57.068s
+sys	0m13.603s
+
+real	3m10.218s
+user	4m25.596s
+sys	0m40.510s
+
+real	0m1.339s
+user	0m0.076s
+sys	0m0.020s
+
+real	0m22.933s
+user	0m25.411s
+sys	0m7.107s
+
+real	0m0.749s
+user	0m0.024s
+sys	0m0.013s
+
+real	0m49.548s
+user	0m25.861s
+sys	0m7.523s
+
+real	1m1.972s
+user	0m42.435s
+sys	0m12.093s
+
+real	0m7.815s
+user	0m2.947s
+sys	0m0.250s
+
+real	0m10.287s
+user	0m0.019s
+sys	0m0.020s
+
+real	0m1.225s
+user	0m0.031s
+sys	0m0.018s
+
+real	0m7.084s
+user	0m2.334s
+sys	0m0.223s
+
+real	0m4.950s
+user	0m0.001s
+sys	0m0.001s
+
+real	0m0.019s
+user	0m0.000s
+sys	0m0.005s
+
+real	0m7.544s
+user	0m2.808s
+sys	0m0.226s
+
+real	0m8.115s
+user	0m0.022s
+sys	0m0.015s
+
+real	0m1.226s
+user	0m0.035s
+sys	0m0.015s
+
+real	0m7.061s
+user	0m2.326s
+sys	0m0.176s
+
+real	0m10.618s
+user	0m0.019s
+sys	0m0.017s
+
+real	0m1.228s
+user	0m0.038s
+sys	0m0.013s
+
+real	1m7.574s
+user	0m57.784s
+sys	0m12.751s
+
+real	0m1.094s
+user	0m0.077s
+sys	0m0.066s
+
+real	0m1.190s
+user	0m0.028s
+sys	0m0.023s
+
+real	0m36.775s
+user	0m12.427s
+sys	0m4.110s
+
+real	0m54.349s
+user	0m34.816s
+sys	0m9.857s
+
+real	0m0.536s
+user	0m0.824s
+sys	0m0.125s
+
+real	0m1.609s
+user	0m1.612s
+sys	0m0.298s
+
+real	0m46.901s
+user	0m20.470s
+sys	0m8.290s
+
+real	0m0.003s
+user	0m0.000s
+sys	0m0.003s
+
+real	0m0.004s
+user	0m0.001s
+sys	0m0.002s
+
+real	0m1.430s
+user	0m0.083s
+sys	0m0.036s
+
+real	0m2.911s
+user	0m1.223s
+sys	0m0.426s
+Tue Oct 31 01:46:45 PM EDT 2023
+Last metadata expiration check: 0:15:44 ago on Tue 31 Oct 2023 01:31:02 PM EDT.
+
+real	0m1.351s
+user	0m1.158s
+sys	0m0.172s
+Tue Oct 31 01:46:46 PM EDT 2023
+
+real	0m1.156s
+user	0m0.036s
+sys	0m0.010s
+
+real	14m11.238s
+user	9m18.422s
+sys	1m58.624s
+[kushal@kalimati ~]$
+[kushal@kalimati ~]$
+[kushal@kalimati ~]$
+[kushal@kalimati ~]$
+[kushal@kalimati ~]$ time sh /home/kushal/src/bash/omnibus/omnibus.sh
