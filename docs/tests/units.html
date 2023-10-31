@@ -11,35 +11,37 @@
     <section>
       <header class="overview">
         <div class="browser">Browser: Firefox 119.0 (Linux x86_64)</div>
-        <div class="timestamp">Timestamp: 10/31/2023, 5:48:18 PM</div>
+        <div class="timestamp">Timestamp: 10/31/2023, 6:16:40 PM</div>
         <p class="results">
           3 tests / 
           0 errors / 
-          0 failures / 
+          2 failures / 
           0 skipped / 
-          runtime: 0.04s
+          runtime: 0.05s
         </p>
       </header>
       <div class="spec spec--group">
         <h3 class="spec__header">AppComponent</h3>
       </div>
-      <div class="spec spec--pass" style="margin-left:0px;">
-        <h3 class="spec__header">
-          <div class="spec__title">
-            <p class="spec__suite hidden">AppComponent</p>
-            <em class="spec__descrip">should render title</em>
-          </div>
-          <div class="spec__status">Passed in 0.024s</div>
-        </h3>
-      </div>
-      <div class="spec spec--pass" style="margin-left:0px;">
+      <div class="spec spec--fail" style="margin-left:0px;">
         <h3 class="spec__header">
           <div class="spec__title">
             <p class="spec__suite hidden">AppComponent</p>
             <em class="spec__descrip">should have as title 'angularsixteen'</em>
           </div>
-          <div class="spec__status">Passed in 0.009s</div>
+          <div class="spec__status">Failed</div>
         </h3>
+        <p class="spec__log">Expected 'Angular' to equal 'angularsixteen'.<br />&lt;Jasmine&gt;<br />7288/&lt;/&lt;@main.js:30:23<br />invoke@polyfills.js:348:158<br />onInvoke@vendor.js:3423:33<br />invoke@polyfills.js:348:46<br />run@polyfills.js:131:35<br />runInTestZone@vendor.js:3689:28<br />7681/&lt;/wrapTestInZone/&lt;@vendor.js:3704:14<br />&lt;Jasmine&gt;<br />invoke@polyfills.js:348:158<br />run@polyfills.js:131:35<br />6657/&lt;/scheduleResolveOrReject/&lt;@polyfills.js:1209:28<br />invokeTask@polyfills.js:375:171<br />runTask@polyfills.js:177:37<br />drainMicroTaskQueue@polyfills.js:546:23<br /></p>
+      </div>
+      <div class="spec spec--fail" style="margin-left:0px;">
+        <h3 class="spec__header">
+          <div class="spec__title">
+            <p class="spec__suite hidden">AppComponent</p>
+            <em class="spec__descrip">should render title</em>
+          </div>
+          <div class="spec__status">Failed</div>
+        </h3>
+        <p class="spec__log">Expected undefined to contain 'Welcome to Angular'.<br />&lt;Jasmine&gt;<br />7288/&lt;/&lt;@main.js:36:66<br />invoke@polyfills.js:348:158<br />onInvoke@vendor.js:3423:33<br />invoke@polyfills.js:348:46<br />run@polyfills.js:131:35<br />runInTestZone@vendor.js:3689:28<br />7681/&lt;/wrapTestInZone/&lt;@vendor.js:3704:14<br />&lt;Jasmine&gt;<br />invoke@polyfills.js:348:158<br />run@polyfills.js:131:35<br />6657/&lt;/scheduleResolveOrReject/&lt;@polyfills.js:1209:28<br />invokeTask@polyfills.js:375:171<br />runTask@polyfills.js:177:37<br />drainMicroTaskQueue@polyfills.js:546:23<br /></p>
       </div>
       <div class="spec spec--pass" style="margin-left:0px;">
         <h3 class="spec__header">
@@ -47,7 +49,7 @@
             <p class="spec__suite hidden">AppComponent</p>
             <em class="spec__descrip">should create the app</em>
           </div>
-          <div class="spec__status">Passed in 0.007s</div>
+          <div class="spec__status">Passed in 0.01s</div>
         </h3>
       </div>
     </section>
