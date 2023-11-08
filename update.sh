@@ -58,10 +58,9 @@ git commit -m "begin prepare to update angular";
 export NODE_OPTIONS="--max-old-space-size=8000"; time yarn run ng update @angular/core @angular/cli;
 git add .;
 git commit -m "end prepare to update angular";
-time npx browserslist --update-db >> README.md 2>&1;
 
 echo "\`\`\`bash" >> README.md 2>&1;
-time npx browserslist --update-db >> README.md 2>&1;
+time npx update-browserslist-db@latest >> README.md 2>&1;
 echo "\`\`\`" >> README.md 2>&1;
 
 echo "\`\`\`bash"  >> README.md 2>&1;
