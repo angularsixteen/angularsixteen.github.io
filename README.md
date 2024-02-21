@@ -61,3 +61,228 @@ caniuse-lite has been successfully updated
 No target browser changes
 ```
 ```bash
+yarn run v1.22.21
+$ ng build --configuration production --output-path docs --output-hashing none --stats-json true --subresource-integrity true --verbose true
+- Generating browser application bundles (phase: setup)...
+<t> [webpack.cache.PackFileCacheStrategy] restore cache container: 1720.302496 ms
+    [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] /home/kushal/src/angular/angularsixteen/package.json invalidated because hashes differ (e894652c32a8c9f8 != 76abde67c4b56de8)
+    [webpack.cache.PackFileCacheStrategy] resolving of build dependencies is invalid, will re-resolve build dependencies
+<t> [webpack.cache.PackFileCacheStrategy] check build dependencies: 592.518298 ms
+<t> [webpack.cache.PackFileCacheStrategy] restore cache content metadata: 3.794986 ms
+    [webpack.cache.PackFileCacheStrategy] starting to restore cache content 0 (30.4 MiB) because of request to: ProgressPlugin|counts
+    [webpack.cache.PackFileCacheStrategy] starting to restore cache content 1 (224 KiB) because of request to: ResolverCachePlugin|normal|default|dependencyType=|esm|path=|/home/kushal/src/angular/angularsixteen|request=|/home/kushal/src/angular/angularsixteen/src/main.ts
+    [webpack.cache.PackFileCacheStrategy] Deserialization of 'Compilation/modules|/home/kushal/src/angular/angularsixteen/node_modules/mini-css-extract-plugin/dist/loader.js!/home/kushal/src/angular/angularsixteen/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].rules[0].oneOf[0].use[1]!/home/kushal/src/angular/angularsixteen/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].rules[0].oneOf[0].use[2]!/home/kushal/src/angular/angularsixteen/node_modules/resolve-url-loader/index.js??ruleSet[1].rules[5].rules[1].use[0]!/home/kushal/src/angular/angularsixteen/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].rules[1].use[1]!/home/kushal/src/angular/angularsixteen/src/styles.scss?ngGlobalStyle': 1.128748 ms
+<t> [webpack.cache.PackFileCacheStrategy] restore cache content 1 (224 KiB): 9.30204 ms
+    [webpack.cache.PackFileCacheStrategy] Deserialization of 'Compilation/modules|javascript/esm|/home/kushal/src/angular/angularsixteen/node_modules/@angular-devkit/build-angular/src/tools/babel/webpack-loader.js??ruleSet[1].rules[2].use[0]!/home/kushal/src/angular/angularsixteen/node_modules/@angular/core/fesm2022/core.mjs': 2.038139 ms
+    [webpack.cache.PackFileCacheStrategy] Deserialization of 'Compilation/modules|javascript/esm|/home/kushal/src/angular/angularsixteen/node_modules/@angular-devkit/build-angular/src/tools/babel/webpack-loader.js??ruleSet[1].rules[2].use[0]!/home/kushal/src/angular/angularsixteen/node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs': 1.603257 ms
+    [webpack.cache.PackFileCacheStrategy] Deserialization of 'Compilation/modules|javascript/esm|/home/kushal/src/angular/angularsixteen/node_modules/@angular-devkit/build-angular/src/tools/babel/webpack-loader.js??ruleSet[1].rules[2].use[0]!/home/kushal/src/angular/angularsixteen/node_modules/@angular/router/fesm2022/router.mjs': 2.48396 ms
+    [webpack.cache.PackFileCacheStrategy] Deserialization of 'Compilation/modules|javascript/esm|/home/kushal/src/angular/angularsixteen/node_modules/@angular-devkit/build-angular/src/tools/babel/webpack-loader.js??ruleSet[1].rules[2].use[0]!/home/kushal/src/angular/angularsixteen/node_modules/@angular/common/fesm2022/common.mjs': 1.029439 ms
+<t> [webpack.cache.PackFileCacheStrategy] restore cache content 0 (30.4 MiB): 77.954754 ms
+    [IdleFileCachePlugin] Initial cache was generated and cache will be persisted in 5s.
+✔ Browser application bundle generation complete.
+    [webpack.cache.PackFileCacheStrategy] Pack got invalid because of write to: ResolverCachePlugin|normal|default|dependencyType=|esm|path=|/home/kushal/src/angular/angularsixteen|request=|/home/kushal/src/angular/angularsixteen/src/styles.scss?ngGlobalStyle
+    [webpack.cache.PackFileCacheStrategy] Pack 1 got empty and is removed
+asset main.js 184 KiB {590} [emitted] (name: main)
+asset styles.css 70 KiB {176} [emitted] (name: styles)
+asset polyfills.js 33 KiB {260} [emitted] (name: polyfills)
+asset 3rdpartylicenses.txt 12.6 KiB [emitted]
+asset runtime.js 906 bytes {688} [emitted] (name: runtime)
+Entrypoint main 185 KiB = runtime.js 906 bytes main.js 184 KiB
+Entrypoint polyfills 33.9 KiB = runtime.js 906 bytes polyfills.js 33 KiB
+Entrypoint styles 70.9 KiB = runtime.js 906 bytes styles.css 70 KiB
+chunk {176} (runtime: runtime) styles.css (styles) 50 bytes (javascript) 78.5 KiB (css/mini-extract) [initial]
+  cached modules 78.5 KiB [cached] 1 module
+  ./src/styles.scss?ngGlobalStyle [256] 50 bytes {176} [built]
+    [no exports used]
+    entry /home/kushal/src/angular/angularsixteen/src/styles.scss?ngGlobalStyle styles
+    1433 ms (resolving: 713 ms, restoring: 0 ms, integration: 0 ms, building: 720 ms, storing: 0 ms)
+chunk {260} (runtime: runtime) polyfills.js (polyfills) 104 KiB [initial]
+  cached modules 104 KiB [cached] 1 module
+chunk {590} (runtime: runtime) main.js (main) 2.06 MiB [initial]
+  ./src/main.ts + 88 modules [712] 2.06 MiB {590} [built]
+    [no exports used]
+    entry /home/kushal/src/angular/angularsixteen/src/main.ts main
+chunk {688} (runtime: runtime) runtime.js (runtime) 2.48 KiB [entry]
+  cached modules 2.48 KiB [cached] 4 modules
+  
+
+LOG from webpack.FileSystemInfo
+    46 new snapshots created
+    39% root snapshot uncached (760 / 1926)
+    16% children snapshot uncached (361 / 2287)
+    1339 entries tested
+    File info in cache: 107 timestamps 21 hashes 21 timestamp hash combinations
+    File timestamp snapshot optimization: 83% (20/24) entries shared via 1 shared snapshots (1 times referenced)
+    File timestamp hash combination snapshot optimization: 77% (287/372) entries shared via 1 shared snapshots (40 times referenced)
+    Directory info in cache: 0 timestamps 0 hashes 0 timestamp hash combinations
+    Missing items snapshot optimization: 47% (116/247) entries shared via 6 shared snapshots (10 times referenced)
+    Managed items info in cache: 58 items
+    Managed items snapshot optimization: 46% (94/203) entries shared via 8 shared snapshots (17 times referenced)
+    Managed files snapshot optimization: 72% (133/185) entries shared via 12 shared snapshots (22 times referenced)
+    Managed missing snapshot optimization: 79% (194/247) entries shared via 14 shared snapshots (25 times referenced)
++ 2 hidden lines
+
+LOG from webpack.Compilation
+<t> runtime requirements.modules: 0.194899 ms
+<t> runtime requirements.chunks: 0.172633 ms
+<t> runtime requirements.entries: 0.930216 ms
+<t> finish module profiles: 3.603935 ms
+<t> compute affected modules: 0.007003 ms
+<t> finish modules: 18.343206 ms
+<t> report dependency errors and warnings: 3.370185 ms
+<t> optimize dependencies: 8.076085 ms
+<t> create chunks: 2.377825 ms
+<t> compute affected modules with chunk graph: 0.004223 ms
+<t> optimize: 21.782011 ms
+    4 modules hashed, 0 from cache (0.02 variants per module in average)
+<t> module hashing: 5.97454 ms
+    0% code generated (0 generated, 4 from cache)
+<t> code generation: 0.577044 ms
+<t> runtime requirements.modules: 0.185053 ms
+<t> runtime requirements.chunks: 0.080264 ms
+<t> runtime requirements.entries: 0.405729 ms
+<t> runtime requirements: 0.890789 ms
+<t> hashing: initialize hash: 0.004921 ms
+<t> hashing: sort chunks: 0.03903 ms
+<t> hashing: hash runtime modules: 0.952632 ms
+<t> hashing: hash chunks: 0.992649 ms
+<t> hashing: hash digest: 0.036055 ms
+<t> hashing: process full hash modules: 0.149629 ms
+<t> hashing: 2.318687 ms
+    0% code generated (0 generated, 4 from cache)
+<t> record hash: 0.049907 ms
+<t> module assets: 0.146554 ms
+<t> create chunk assets: 0.843026 ms
+<t> process assets: 296.388151 ms
+
+LOG from webpack.Compiler
+<t> make hook: 1448.98282 ms
+<t> finish make hook: 0.074674 ms
+<t> finish compilation: 25.354752 ms
+<t> seal compilation: 340.692311 ms
+<t> afterCompile hook: 0.103753 ms
+<t> emitAssets: 3.546869 ms
+<t> emitRecords: 0.081726 ms
+<t> done hook: 76.609325 ms
+<t> beginIdle: 0.381654 ms
+
+LOG from webpack.Compilation.ModuleProfile
+<i>  | 238 ms (parallelism 3) resolve to new modules > ./src/styles.scss?ngGlobalStyle
+<i>  | 270 ms (parallelism 3) resolve to new modules > ./src/main.ts
+<i>  | 268 ms (parallelism 3) resolve to new modules > ./node_modules/zone.js/fesm2015/zone.js
+<i> 841 ms resolve to new modules
+     |  | 103 ms (parallelism 7) build modules > ./src/styles.scss?ngGlobalStyle
+     | 103 ms build modules > 1 x javascript/auto with ./node_modules/mini-css-extract-plugin/dist/loader.js!./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].rules[0].oneOf[0].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].rules[0].oneOf[0].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[5].rules[1].use[0]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].rules[1].use[1]
+     |  | 83 ms (parallelism 7.6) build modules > ./src/styles.scss.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].rules[0].oneOf[0].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].rules[0].oneOf[0].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[5].rules[1].use[0]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].rules[1].use[1]!./src/styles.scss?ngGlobalStyle
+     | 83 ms build modules > 1 x javascript/auto with ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].rules[0].oneOf[0].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].rules[0].oneOf[0].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[5].rules[1].use[0]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].rules[1].use[1]
+    226 ms build modules
++ 7 hidden lines
+
+LOG from webpack.ResolverCachePlugin
+    3% really resolved (43 real resolves with 43 cached but invalid, 1640 cached valid, 0 concurrent)
+
+LOG from webpack.FlagDependencyExportsPlugin
+<t> restore cached provided exports: 1.846427 ms
+<t> figure out provided exports: 4.518708 ms
+    2% of exports of modules have been determined (9 no declared exports, 4 not cached, 0 flagged uncacheable, 236 from cache, 0 from mem cache, 1 additional calculations due to dependencies)
+<t> store provided exports into cache: 0.007092 ms
+
+LOG from webpack.InnerGraphPlugin
+<t> infer dependency usage: 0.237775 ms
+
+LOG from webpack.SideEffectsFlagPlugin
+<t> update dependencies: 3.468101 ms
+
+LOG from webpack.FlagDependencyUsagePlugin
+<t> initialize exports usage: 0.463545 ms
+<t> trace exports usage in graph: 3.756063 ms
+
+LOG from webpack.buildChunkGraph
+<t> visitModules: prepare: 0.949474 ms
+<t> visitModules: visiting: 1.591908 ms
+    211 queue items processed (92 blocks)
+    0 chunk groups connected
+    0 chunk groups processed for merging (0 module sets, 0 forked, 0 + 0 modules forked, 0 + 0 modules merged into fork, 0 resulting modules)
+    0 chunk group info updated (0 already connected chunk groups reconnected)
+<t> visitModules: 1.643498 ms
+<t> connectChunkGroups: 0.001837 ms
+<t> cleanup: 0.001127 ms
+
+LOG from webpack.SplitChunksPlugin
+<t> prepare: 0.039655 ms
+<t> modules: 2.1324 ms
+<t> queue: 0.004092 ms
+<t> maxSize: 0.031266 ms
+
+LOG from webpack.ModuleConcatenationPlugin
+<t> select relevant modules: 0.99603 ms
+<t> sort relevant modules: 0.097671 ms
+<t> find modules to concatenate: 4.07828 ms
+<t> sort concat configurations: 0.002051 ms
+<t> create concatenated modules: 6.71343 ms
++ 3 hidden lines
+
+LOG from build-angular.CssOptimizerPlugin
+<t> optimize css assets: 0.107827 ms
++ 1 hidden lines
+
+2024-02-21 17:07:31: webpack 5.90.1 compiled in 3513 ms (86f7e7525c8b66f7)
+    [webpack.cache.PackFileCacheStrategy] Storing pack...
+    [webpack.cache.PackFileCacheStrategy] Capturing build dependencies... (/home/kushal/src/angular/angularsixteen/node_modules/webpack/lib/, /home/kushal/src/angular/angularsixteen/node_modules/css-loader/dist/cjs.js, /home/kushal/src/angular/angularsixteen/node_modules/postcss-loader/dist/cjs.js, /home/kushal/src/angular/angularsixteen/node_modules/resolve-url-loader/index.js, /home/kushal/src/angular/angularsixteen/node_modules/sass-loader/dist/cjs.js, /home/kushal/src/angular/angularsixteen/node_modules/@angular-devkit/build-angular/src/tools/babel/webpack-loader.js, /home/kushal/src/angular/angularsixteen/node_modules/mini-css-extract-plugin/dist/loader.js, /home/kushal/src/angular/angularsixteen/node_modules/@ngtools/webpack/src/ivy/index.js)
+<t> [webpack.cache.PackFileCacheStrategy] resolve build dependencies: 400.456394 ms
+<t> [webpack.cache.PackFileCacheStrategy] snapshot build dependencies: 7.728338 ms
+    [webpack.cache.PackFileCacheStrategy] Captured build dependencies
+    [webpack.cache.PackFileCacheStrategy] 46 fresh items in cache put into pack 1
+<t> [webpack.cache.PackFileCacheStrategy] store pack: 33.68258 ms
+    [webpack.cache.PackFileCacheStrategy] Stored pack (1039 items, 2 files, 31 MiB)
+✔ Browser application bundle generation complete.
+- Copying assets...
+✔ Copying assets complete.
+- Generating index html...
+- Generating index html...
+Unable to locate stylesheet: /home/kushal/src/angular/angularsixteen/docs/assts/css/pico.min.css
+31 rules skipped due to selector errors:
+  :where() -> Empty sub-selector
+  [role=link]:is([aria-current],,) -> Empty sub-selector
+  a:is([aria-current],,) -> Empty sub-selector
+  [role=link].secondary:is([aria-current],,) -> Empty sub-selector
+  a.secondary:is([aria-current],,) -> Empty sub-selector
+  [role=link].contrast:is([aria-current],,) -> Empty sub-selector
+  a.contrast:is([aria-current],,) -> Empty sub-selector
+  [role=button]:is([aria-current],,) -> Empty sub-selector
+  button:is([aria-current],,) -> Empty sub-selector
+  input[type=button]:is([aria-current],,) -> Empty sub-selector
+  input[type=reset]:is([aria-current],,) -> Empty sub-selector
+  input[type=submit]:is([aria-current],,) -> Empty sub-selector
+  :is(button,input[type=submit],input[type=button],[role=button]).secondary:is([aria-current],,) -> Empty sub-selector
+  input[type=reset]:is([aria-current],,) -> Empty sub-selector
+  :is(button,input[type=submit],input[type=button],[role=button]).contrast:is([aria-current],,) -> Empty sub-selector
+  :is(button,input[type=submit],input[type=button],[role=button]).outline:is([aria-current],,) -> Empty sub-selector
+  input[type=reset].outline:is([aria-current],,) -> Empty sub-selector
+  :is(button,input[type=submit],input[type=button],[role=button]).outline.secondary:is([aria-current],,) -> Empty sub-selector
+  input[type=reset].outline:is([aria-current],,) -> Empty sub-selector
+  :is(button,input[type=submit],input[type=button],[role=button]).outline.contrast:is([aria-current],,) -> Empty sub-selector
+  :where(select,textarea):is() -> Empty sub-selector
+  input:not([type=submit],[type=button],[type=reset],[type=checkbox],[type=radio],[readonly]):is() -> Empty sub-selector
+  :where(select,textarea):is() -> Empty sub-selector
+  input:not([type=submit],[type=button],[type=reset],[role=switch],[readonly]):is() -> Empty sub-selector
+  :where(input,select,textarea)[aria-invalid=false]:is() -> Empty sub-selector
+  :where(input,select,textarea)[aria-invalid=true]:is() -> Empty sub-selector
+  [type=file]:is() -> Empty sub-selector
+  [type=file]:is() -> Empty sub-selector
+  [type=file]:is() -> Empty sub-selector
+  dialog article .close:is([aria-current],,) -> Empty sub-selector
+  nav :where(a,[role=link]):is([aria-current],,) -> Empty sub-selector
+✔ Index html generation complete.
+
+Initial chunk files | Names         |  Raw size | Estimated transfer size
+main.js             | main          | 183.84 kB |                48.82 kB
+styles.css          | styles        |  70.05 kB |                 8.40 kB
+polyfills.js        | polyfills     |  32.97 kB |                10.63 kB
+runtime.js          | runtime       | 906 bytes |               510 bytes
+
+                    | Initial total | 287.74 kB |                68.35 kB
+
+Build at: 2024-02-21T22:07:32.472Z - Hash: 86f7e7525c8b66f7 - Time: 4149ms
+Done in 5.46s.
+```
